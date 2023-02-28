@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="oC8-j7-16V">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Mystory_" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="288880195_537179681488944_7481452737219776343_n" translatesAutoresizingMaskIntoConstraints="NO" id="VJX-T2-I4k">
+                                <rect key="frame" x="62" y="124" width="269" height="220"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="23V-55-Mak">
+                                <rect key="frame" x="89" y="409" width="167" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="My Cool Backstory"/>
+                                <connections>
+                                    <segue destination="MNr-Kq-GqN" kind="show" id="acZ-me-Izm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UHp-zM-Obd">
+                                <rect key="frame" x="88" y="501" width="169" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="My Only Weakness"/>
+                                <connections>
+                                    <segue destination="Aq8-xl-gXA" kind="show" id="lmq-yN-26A"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3m6-IA-cDf">
+                                <rect key="frame" x="88" y="596" width="169" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="How much can I lift"/>
+                                <connections>
+                                    <segue destination="zY6-oV-J7h" kind="show" id="dBL-sp-cdg"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="ANw-HJ-az4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1043.5114503816794" y="3.5211267605633805"/>
+        </scene>
+        <!--My cool Backstory-->
+        <scene sceneID="DC6-Eo-QfV">
+            <objects>
+                <viewController id="MNr-Kq-GqN" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8cj-vb-i9x">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="HD-wallpaper-joker-with-gun-up-colorful-background-joker" translatesAutoresizingMaskIntoConstraints="NO" id="wXT-7U-0De">
+                                <rect key="frame" x="56" y="124" width="280" height="202"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="fJ8-83-Dq5">
+                                <rect key="frame" x="25" y="432" width="311" height="240"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">The Joker is often portrayed as a psychopathic and unpredictable criminal who uses his twisted sense of humor to cause chaos and destruction in Gotham City.
+
+One of the most intriguing aspects of the Joker's character is his mysterious and ambiguous past. He is often depicted as a man with no name or origin story, and his true identity remains a mystery. This has led to numerous interpretations of the character over the years, ranging from a failed comedian to a mentally disturbed criminal mastermind.
+
+</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Tqd-YO-64Q"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="My cool Backstory" id="qZm-F2-EHc"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8G7-mj-DCu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1742.7480916030534" y="3.5211267605633805"/>
+        </scene>
+        <!--My Only Weakness-->
+        <scene sceneID="a0L-A2-ej4">
+            <objects>
+                <viewController id="Aq8-xl-gXA" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="m5m-6I-Mye">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Joker" translatesAutoresizingMaskIntoConstraints="NO" id="Lxt-ea-0Ut">
+                                <rect key="frame" x="54" y="142" width="285" height="171"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="XWv-Uy-zUd">
+                                <rect key="frame" x="67" y="436" width="272" height="257"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">obvious physical weaknesses. However, he does have psychological vulnerabilities that can be exploited under certain circumstances.
+
+One of the Joker's main weaknesses is his obsession with Batman. He is fixated on the Dark Knight and often becomes irrational and reckless when he is confronted with Batman or the threat of his capture. This can make him more vulnerable to traps and other tactics that exploit his impulsiveness and lack of foresight.
+
+</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="eN0-pC-FZz"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="My Only Weakness" id="5Bl-yD-xRw"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EQY-RB-1fP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2524" y="4"/>
+        </scene>
+        <!--How much can I lift-->
+        <scene sceneID="Gb2-mx-efL">
+            <objects>
+                <viewController id="zY6-oV-J7h" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="HrC-0z-wph">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="download" translatesAutoresizingMaskIntoConstraints="NO" id="VKJ-7B-4yG">
+                                <rect key="frame" x="67" y="148" width="261" height="168"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="fWf-zT-lDO">
+                                <rect key="frame" x="67" y="362" width="261" height="372"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <mutableString key="text">There is no definitive answer to how much weight the Joker can lift as he is a fictional character and his physical abilities have not been fully defined or measured in the comics or other media. However, it is generally accepted that the Joker is not known for his physical strength, as his primary weapons are his intellect, his wit, and his unpredictability rather than brute force.
+
+In some comic book storylines, the Joker has displayed average to above-average strength, able to lift and throw objects such as chairs, tables, and even people with relative ease. However, this is not a consistent aspect of his character, and his physical abilities tend to vary depending on the story and the writer.</mutableString>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="4Fd-W8-BW8"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="How much can I lift" id="woX-8y-lf3"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Rcp-ta-8tv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3278.6259541984732" y="3.5211267605633805"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="lwp-8Q-efN">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="oC8-j7-16V" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="y5v-JG-gJT">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="h0d-Ui-7PP"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qxq-YH-LWk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="116.79389312977099" y="3.5211267605633805"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="288880195_537179681488944_7481452737219776343_n" width="512" height="640"/>
+        <image name="HD-wallpaper-joker-with-gun-up-colorful-background-joker" width="800" height="450"/>
+        <image name="Joker" width="800" height="457"/>
+        <image name="download" width="299" height="168"/>
+        <systemColor name="labelColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
