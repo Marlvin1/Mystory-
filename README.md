@@ -4,7 +4,7 @@ Submitted by: Marlvin Goremusandu
 
 **Name of your app** is an app that introduces ... [TODO] 
 
-Time spent: **X** hours spent in total
+Time spent: **20** hours spent in total
 
 ## Required Features
 
